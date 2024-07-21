@@ -1,0 +1,87 @@
+{
+    "Arsene": {
+        "level": 1,
+        "rank": 1,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Obariyon": {
+        "level": 8,
+        "rank": 2,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Orpheus (F)": {
+        "level": 11,
+        "rank": 3,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Orpheus Picaro (F)": {
+        "level": 13,
+        "rank": 4,
+        "arcana": "Fool",
+        "type": "normal"},
+    "High Pixie": {
+        "level": 16,
+        "rank": 5,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Izanagi": {
+        "level": 20,
+        "rank": 6,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Izanagi Picaro": {
+        "level": 23,
+        "rank": 7,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Orpheus": {
+        "level": 26,
+        "rank": 8,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Orpheus Picaro": {
+        "level": 29,
+        "rank": 9,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Legion": {
+        "level": 38,
+        "rank": 10,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Ose": {
+        "level": 42,
+        "rank": 11,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Bugs": {
+        "level": 49,
+        "rank": 12,
+        "arcana": "Fool",
+        "type": "special"},
+    "Crystal Skull": {
+        "level": 50,
+        "rank": 13,
+        "arcana": "Fool",
+        "type": "treasure"},
+    "Black Frost": {
+        "level": 67,
+        "rank": 14,
+        "arcana": "Fool",
+        "type": "special"},
+    "Raoul": {
+        "level": 76,
+        "rank": 15,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Vishnu": {
+        "level": 83,
+        "rank": 16,
+        "arcana": "Fool",
+        "type": "normal"},
+    "Satanael": {
+        "level": 95,
+        "rank": 17,
+        "arcana": "Fool",
+        "type": "special"}
+}

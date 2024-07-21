@@ -1,0 +1,239 @@
+{
+    "Fool": [
+        {
+            "level": 1,
+            "rank": 1,
+            "type": "normal",
+            "name": "Arsene"
+        },
+        {
+            "level": 8,
+            "rank": 2,
+            "type": "normal",
+            "name": "Obariyon"
+        },
+        {
+            "level": 11,
+            "rank": 3,
+            "type": "normal",
+            "name": "Orpheus (F)"
+        },
+        {
+            "level": 13,
+            "rank": 4,
+            "type": "normal",
+            "name": "Orpheus Picaro (F)"
+        },
+        {
+            "level": 16,
+            "rank": 5,
+            "type": "normal",
+            "name": "High Pixie"
+        },
+        {
+            "level": 20,
+            "rank": 6,
+            "type": "normal",
+            "name": "Izanagi"
+        },
+        {
+            "level": 23,
+            "rank": 7,
+            "type": "normal",
+            "name": "Izanagi Picaro"
+        },
+        {
+            "level": 26,
+            "rank": 8,
+            "type": "normal",
+            "name": "Orpheus"
+        },
+        {
+            "level": 29,
+            "rank": 9,
+            "type": "normal",
+            "name": "Orpheus Picaro"
+        },
+        {
+            "level": 38,
+            "rank": 10,
+            "type": "normal",
+            "name": "Legion"
+        },
+        {
+            "level": 42,
+            "rank": 11,
+            "type": "normal",
+            "name": "Ose"
+        },
+        {
+            "level": 49,
+            "rank": 12,
+            "type": "special",
+            "name": "Bugs"
+        },
+        {
+            "level": 50,
+            "rank": 13,
+            "type": "treasure",
+            "name": "Crystal Skull"
+        },
+        {
+            "level": 67,
+            "rank": 14,
+            "type": "special",
+            "name": "Black Frost"
+        },
+        {
+            "level": 76,
+            "rank": 15,
+            "type": "normal",
+            "name": "Raoul"
+        },
+        {
+            "level": 83,
+            "rank": 16,
+            "type": "normal",
+            "name": "Vishnu"
+        },
+        {
+            "level": 95,
+            "rank": 1,
+            "type": "special",
+            "name": "Satanael"
+        }
+    ],
+    "Magician": [
+        {    "level": 2,
+            "rank": 1,
+            "type": "normal",
+            "name": "Jack-o'-Lantern"
+        },
+        {
+            "level": 5,
+            "rank": 1,
+            "type": "normal",
+            "name": "Cait Sith"
+        },
+        {
+            "level": 11,
+            "rank": 1,
+            "type": "normal",
+            "name": "Jack Frost"
+        },
+        {
+            "level": 17,
+            "rank": 1,
+            "type": "normal",
+            "name": "Nekomata"
+        },
+        {
+            "level": 24,
+            "rank": 1,
+            "type": "normal",
+            "name": "Sandman"
+        },
+        {
+            "level": 28,
+            "rank": 1,
+            "type": "normal",
+            "name": "Choronzon"
+        },
+        {
+            "level": 43,
+            "rank": 1,
+            "type": "normal",
+            "name": "Queen Mab"
+        },
+        {
+            "level": 48,
+            "rank": 1,
+            "type": "normal",
+            "name": "Rangda"
+        },
+        {
+            "level": 63,
+            "rank": 1,
+            "type": "normal",
+            "name": "Forneus"
+        },
+        {
+            "level": 83,
+            "rank": 1,
+            "type": "normal",
+            "name": "Surt"
+        },
+        {
+            "level": 86,
+            "rank": 1,
+            "type": "normal",
+            "name": "Futsunushi"
+        }
+    ],
+    "Priestess": [
+
+    ],
+    "Empress": [
+
+    ],
+    "Emperor": [
+
+    ],
+    "Hierophant": [
+
+    ],
+    "Lovers": [
+
+    ],
+    "Chariot": [
+
+    ],
+    "Justice": [
+
+    ],
+    "Hermit": [
+
+    ],
+    "Fortune": [
+
+    ],
+    "Strength": [
+
+    ],
+    "Hanged Man": [
+
+    ],
+    "Death": [
+
+    ],
+    "Temperance": [
+
+    ],
+    "Devil": [
+
+    ],
+    "Tower": [
+
+    ],
+    "Star": [
+
+    ],
+    "Moon": [
+
+    ],
+    "Sun": [
+
+    ],
+    "Judgement": [
+
+    ],
+    "Faith": [
+
+    ],
+    "Councillor": [
+
+    ],
+    "World": [
+
+    ]
+}
