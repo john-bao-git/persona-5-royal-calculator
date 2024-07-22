@@ -16,7 +16,7 @@ public class Front {
 //		personaByArcanaLevel = parse.getPersonaByArcanaLevel("Magician", 50, false);
 //		System.out.println(personaByArcanaLevel.toString());
 		
-		Persona resPersona = parse.fusion("Arsene", "Jack-o'-Lantern"); // Should lead to Mokoi
+		Persona resPersona = parse.fusion("Satanael", "Vishnu"); // Should lead to Mokoi
 		System.out.println(resPersona.toString());
 
 //		System.out.printf("[%s - %d] %s [%d]\n", personaByArcanaRank.getArcana(), personaByArcanaRank.getRank(), personaByArcanaRank.getName(), personaByArcanaRank.getLevel());		

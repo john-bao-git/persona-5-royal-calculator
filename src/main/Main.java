@@ -157,14 +157,14 @@ public class Main {
 		Persona persona1 = getPersonaByName(p1);
 		Persona persona2 = getPersonaByName(p2);
 				
-		if (persona1.getType().equals("normal") && persona2.getType().equals("normal")) {
-			return fusionNormal(persona1, persona2);
+		if (!persona1.getType().equals("treasure") && persona2.getType().equals("treasure")) {
+			return fusionNonTreasure(persona1, persona2);
 		}
 		
-		return fusionNormal(persona1, persona2);
+		return fusionNonTreasure(persona1, persona2);
 	}
 	
-	public Persona fusionNormal(Persona p1, Persona p2) {		
+	public Persona fusionNonTreasure(Persona p1, Persona p2) {		
 		/*
 		 * Use the Arcana Tables
 		 * 
