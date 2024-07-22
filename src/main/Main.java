@@ -1,6 +1,7 @@
 package main;
 
 import objects.Persona;
+import tools.*;
 
 import java.io.File;
 import java.io.FileReader;
@@ -12,6 +13,7 @@ import org.json.simple.parser.JSONParser;
 public class Main {
 	private JSONObject jsonArcana;
 	private JSONObject jsonPersona;
+	private FusionChart fc;
 	
 	public Main() {
 		init();
@@ -29,6 +31,8 @@ public class Main {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		fc = new FusionChart();
 	}
 	
 	public Persona getPersonaByArcanaRank(String arcana, Integer i) {	
@@ -82,8 +86,8 @@ public class Main {
 		return new Persona(name, arcana, type, level, rank);
 	}
 	
-	private String fusion(String p1, String p2) {
-		String res = "";
+	public Persona fusion(String p1, String p2) {
+		Persona res = new Persona("Name", "Persona", "Type", 1, 1);
 		
 		/*
 		 * Use the Arcana Tables
@@ -94,6 +98,12 @@ public class Main {
 		 * 	If Different Arcana, Persona with the next highest base level of the calculated base level
 		 * 	If Same Arcana, Persona with the next lowest base level
 		 */
+		
+		Persona persona1 = getPersonaByName(p1);
+		Persona persona2 = getPersonaByName(p2);
+		
+		String resArcana = fc.getFusionArcana(persona1.getArcana(), persona2.getArcana());
+		
 		return res;
 	}
 }

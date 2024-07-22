@@ -1,7 +1,10 @@
 package tools;
 
-public class FusionChart {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
+public class FusionChart {
 	private String[] arcanaList = {
 		"Fool",
 		"Magician",
@@ -27,7 +30,8 @@ public class FusionChart {
 		"Faith",
 		"Councillor"
 	};
-	
+		
+	private List<String> arcanaArray = Arrays.asList(arcanaList);
 	/*
 	 * Fool - 1
 	 * Magi - 2
@@ -84,17 +88,24 @@ public class FusionChart {
 	
 	public String getArcana(Integer i) {
 		return (i > 0)
-				? arcanaList[i - 1]
+				? arcanaArray.get(i - 1)
 				: "None";
 	}
 	
 	public String getFusionArcana(Integer i, Integer j) {
-		Integer res = fusionChart[i][j];
+		int res = fusionChart[i][j];
 		
 		if (res == 0) {
 			res = fusionChart[j][i];
 		}
 		
 		return getArcana(res);
+	}
+	
+	public String getFusionArcana(String a1, String a2) {
+		int i1 = arcanaArray.indexOf(a1);
+		int i2 = arcanaArray.indexOf(a2);
+		
+		return getFusionArcana(i1, i2);
 	}
 }
