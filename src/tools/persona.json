@@ -150,6 +150,66 @@
         "arcana": "Magician",
         "type": "normal"
     },
+    "Kelpie": {
+        "level": 6,
+        "rank": 1,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Shiisaa": {
+        "level": 15,
+        "rank": 2,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Oni": {
+        "level": 20,
+        "rank": 3,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Rakshasa": {
+        "level": 24,
+        "rank": 4,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Orlov": {
+        "level": 30,
+        "rank": 5,
+        "arcana": "Strength",
+        "type": "treasure"
+    },
+    "Zouchouten": {
+        "level": 31,
+        "rank": 6,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Valkyrie": {
+        "level": 44,
+        "rank": 7,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Hanuman": {
+        "level": 64,
+        "rank": 8,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Chimera": {
+        "level": 74,
+        "rank": 9,
+        "arcana": "Strength",
+        "type": "normal"
+    },
+    "Zaou-Gongen": {
+        "level": 80,
+        "rank": 10,
+        "arcana": "Strength",
+        "type": "normal"
+    },
     "Mandrake": {
         "level": 3,
         "rank": 1,

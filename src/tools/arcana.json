@@ -199,7 +199,66 @@
 
     ],
     "Strength": [
-
+        {
+            "level": 6,
+            "rank": 1,
+            "type": "normal",
+            "name": "Kelpie"
+        },
+        {
+            "level": 15,
+            "rank": 2,
+            "type": "normal",
+            "name": "Shiisaa"
+        },
+        {
+            "level": 20,
+            "rank": 3,
+            "type": "normal",
+            "name": "Oni"
+        },
+        {
+            "level": 24,
+            "rank": 4,
+            "type": "normal",
+            "name": "Rakshasa"
+        },
+        {
+            "level": 30,
+            "rank": 5,
+            "type": "treasure",
+            "name": "Orlov"
+        },
+        {
+            "level": 31,
+            "rank": 6,
+            "type": "normal",
+            "name": "Zouchouten"
+        },
+        {
+            "level": 44,
+            "rank": 7,
+            "type": "normal",
+            "name": "Valkyrie"
+        },
+        {
+            "level": 64,
+            "rank": 8,
+            "type": "normal",
+            "name": "Hanuman"
+        },
+        {
+            "level": 74,
+            "rank": 9,
+            "type": "normal",
+            "name": "Chimera"
+        },
+        {
+            "level": 80,
+            "rank": 10,
+            "type": "normal",
+            "name": "Zaou-Gongen"
+        }
     ],
     "Hanged Man": [
 
