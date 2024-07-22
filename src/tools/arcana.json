@@ -98,7 +98,7 @@
         },
         {
             "level": 95,
-            "rank": 1,
+            "rank": 17,
             "type": "special",
             "name": "Satanael"
         }
@@ -205,7 +205,84 @@
 
     ],
     "Death": [
-
+        {
+            "level": 3,
+            "rank": 1,
+            "type": "normal",
+            "name": "Mandrake"
+        },
+        {
+            "level": 9,
+            "rank": 2,
+            "type": "normal",
+            "name": "Mokoi"
+        },
+        {
+            "level": 17,
+            "rank": 3,
+            "type": "normal",
+            "name": "Matador"
+        },
+        {
+            "level": 20,
+            "rank": 4,
+            "type": "normal",
+            "name": "Nue"
+        },
+        {
+            "level": 28,
+            "rank": 5,
+            "type": "normal",
+            "name": "Pisaca"
+        },
+        {
+            "level": 37,
+            "rank": 6,
+            "type": "special",
+            "name": "Hell Biker"
+        },
+        {
+            "level": 40,
+            "rank": 7,
+            "type": "treasure",
+            "name": "Hope Diamond"
+        },
+        {
+            "level": 54,
+            "rank": 8,
+            "type": "normal",
+            "name": "Pale Rider"
+        },
+        {
+            "level": 62,
+            "rank": 9,
+            "type": "normal",
+            "name": "Chernobog"
+        },
+        {
+            "level": 65,
+            "rank": 10,
+            "type": "normal",
+            "name": "Thanatos"
+        },
+        {
+            "level": 69,
+            "rank": 11,
+            "type": "normal",
+            "name": "Thanatos Picaro"
+        },
+        {
+            "level": 72,
+            "rank": 12,
+            "type": "normal",
+            "name": "Mot"
+        },
+        {
+            "level": 83,
+            "rank": 13,
+            "type": "special",
+            "name": "Alice"
+        }
     ],
     "Temperance": [
 

@@ -149,5 +149,83 @@
         "rank": 11,
         "arcana": "Magician",
         "type": "normal"
+    },
+    "Mandrake": {
+        "level": 3,
+        "rank": 1,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Mokoi": {
+        "level": 9,
+        "rank": 2,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Matador": {
+        "level": 17,
+        "rank": 3,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Nue": {
+        "level": 20,
+        "rank": 4,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Pisaca": {
+        "level": 28,
+        "rank": 5,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Hell Biker": {
+        "level": 37,
+        "rank": 6,
+        "arcana": "Death",
+        "type": "special"
+    },
+    "Hope Diamond": {
+        "level": 40,
+        "rank": 7,
+        "arcana": "Death",
+        "type": "treasure"
+    },
+    "Pale Rider": {
+        "level": 54,
+        "rank": 8,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Chernobog": {
+        "level": 62,
+        "rank": 9,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Thanatos": {
+        "level": 65,
+        "rank": 10,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Thanatos Picaro": {
+        "level": 69,
+        "rank": 11,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Mot": {
+        "level": 72,
+        "rank": 12,
+        "arcana": "Death",
+        "type": "normal"
+    },
+    "Alice": {
+        "level": 83,
+        "rank": 13,
+        "arcana": "Death",
+        "type": "special"
     }
 }
