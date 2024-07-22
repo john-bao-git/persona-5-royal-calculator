@@ -5,6 +5,7 @@ import tools.*;
 
 import java.io.File;
 import java.io.FileReader;
+import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -61,6 +62,72 @@ public class Main {
 		return new Persona(name, arcana, type, level, rank);
 	}
 	
+	public Persona getPersonaByArcanaLevel(String arcana, Integer level, Boolean sameArcana) {	
+		String name = "", type = "";
+		Integer rank = 1;
+		
+		try {			
+			// Get specifically the Arcana, which is an array
+			JSONArray personaArray = (JSONArray) jsonArcana.get(arcana);
+			JSONObject persona = searchThroughPersonaList(personaArray, level, sameArcana);
+			
+			name = (String) persona.get("name");
+			type = (String) persona.get("type");
+			level = Math.toIntExact((Long) persona.get("level"));
+			rank = Math.toIntExact((Long) persona.get("rank"));	
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("Invalid Index by Arcana Rank");
+			e.printStackTrace();
+		} catch (NullPointerException e) {
+			System.out.println("Invalid Arcana by Arcana Rank");
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return new Persona(name, arcana, type, level, rank);
+	}
+	
+	private JSONObject searchThroughPersonaList(JSONArray personaArray, Integer level, Boolean sameArcana) {
+		int i = (sameArcana)
+			? i = personaArray.size() - 1
+			: 0;
+		JSONObject persona = (JSONObject) personaArray.get(i);
+		JSONObject lastNormalPersona = persona;
+		
+		if (sameArcana) {			
+			while (level < Math.toIntExact((Long) persona.get("level")) && -1 < i) {
+				persona = (JSONObject) personaArray.get(i);
+				
+				if (((String) persona.get("type")).equals("normal")) {
+					lastNormalPersona = persona;
+					
+					if (Math.toIntExact((Long) persona.get("level")) == level) {
+						return lastNormalPersona;
+					}
+				}
+				
+				i--;
+			}
+		} else {
+			while (Math.toIntExact((Long) persona.get("level")) < level && i < (personaArray.size())) {		
+				persona = (JSONObject) personaArray.get(i);	
+				
+				if (((String) persona.get("type")).equals("normal")) {
+					lastNormalPersona = persona;
+					
+					if (Math.toIntExact((Long) persona.get("level")) == level) {
+						return lastNormalPersona;
+					}
+				}
+				
+				i++;
+			}
+		}
+		
+		return lastNormalPersona;
+	}
+	
 	public Persona getPersonaByName(String name) {
 		String arcana = "", type = "";
 		Integer level = 1, rank = 1;
@@ -87,7 +154,7 @@ public class Main {
 	}
 	
 	public Persona fusion(String p1, String p2) {
-		Persona res = new Persona("Name", "Persona", "Type", 1, 1);
+		Persona res = new Persona("Name", "Arcana", "Type", 1, 1);
 		
 		/*
 		 * Use the Arcana Tables
@@ -103,6 +170,11 @@ public class Main {
 		Persona persona2 = getPersonaByName(p2);
 		
 		String resArcana = fc.getFusionArcana(persona1.getArcana(), persona2.getArcana());
+		Integer resLevel = ((persona1.getLevel() + persona2.getLevel()) / 2) + 1;
+		
+		// Figure out the direction to go in the arcana list
+		// True means it goes down, False goes up
+		Boolean arcanaSame = (persona1.getArcana() == persona2.getArcana());
 		
 		return res;
 	}

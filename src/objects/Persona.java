@@ -30,4 +30,9 @@ public class Persona {
 	public Integer getRank() {
 		return this.rank;
 	}
+	
+	public String toString() {
+		return String.format("Name: %s | Arcana: %s | Type: %s | Base Level: %d",
+				this.name, this.arcana, this.type, this.level);
+	}
 }
