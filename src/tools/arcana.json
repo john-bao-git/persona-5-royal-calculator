@@ -104,68 +104,69 @@
         }
     ],
     "Magician": [
-        {    "level": 2,
+        {
+            "level": 2,
             "rank": 1,
             "type": "normal",
             "name": "Jack-o'-Lantern"
         },
         {
             "level": 5,
-            "rank": 1,
+            "rank": 2,
             "type": "normal",
             "name": "Cait Sith"
         },
         {
             "level": 11,
-            "rank": 1,
+            "rank": 3,
             "type": "normal",
             "name": "Jack Frost"
         },
         {
             "level": 17,
-            "rank": 1,
+            "rank": 4,
             "type": "normal",
             "name": "Nekomata"
         },
         {
             "level": 24,
-            "rank": 1,
+            "rank": 5,
             "type": "normal",
             "name": "Sandman"
         },
         {
             "level": 28,
-            "rank": 1,
+            "rank": 6,
             "type": "normal",
             "name": "Choronzon"
         },
         {
             "level": 43,
-            "rank": 1,
+            "rank": 7,
             "type": "normal",
             "name": "Queen Mab"
         },
         {
             "level": 48,
-            "rank": 1,
+            "rank": 8,
             "type": "normal",
             "name": "Rangda"
         },
         {
             "level": 63,
-            "rank": 1,
+            "rank": 9,
             "type": "normal",
             "name": "Forneus"
         },
         {
             "level": 83,
-            "rank": 1,
+            "rank": 10,
             "type": "normal",
             "name": "Surt"
         },
         {
             "level": 86,
-            "rank": 1,
+            "rank": 11,
             "type": "normal",
             "name": "Futsunushi"
         }

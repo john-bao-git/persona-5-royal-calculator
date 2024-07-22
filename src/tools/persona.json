@@ -83,5 +83,71 @@
         "level": 95,
         "rank": 17,
         "arcana": "Fool",
-        "type": "special"}
+        "type": "special"},
+    "Jack-o'-Lantern": {
+        "level": 2,
+        "rank": 1,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Cait Sith": {
+        "level": 5,
+        "rank": 2,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Jack Frost": {
+        "level": 11,
+        "rank": 3,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Nekomata": {
+        "level": 17,
+        "rank": 4,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Sandman": {
+        "level": 24,
+        "rank": 5,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Choronzon": {
+        "level": 28,
+        "rank": 6,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Queen Mab": {
+        "level": 43,
+        "rank": 7,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Rangda": {
+        "level": 48,
+        "rank": 8,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Forneus": {
+        "level": 63,
+        "rank": 9,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Surt": {
+        "level": 83,
+        "rank": 10,
+        "arcana": "Magician",
+        "type": "normal"
+    },
+    "Futsunushi": {
+        "level": 86,
+        "rank": 11,
+        "arcana": "Magician",
+        "type": "normal"
+    }
 }
