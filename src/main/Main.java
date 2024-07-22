@@ -154,8 +154,19 @@ public class Main {
 	}
 	
 	public Persona fusion(String p1, String p2) {
-		Persona res = new Persona("Name", "Arcana", "Type", 1, 1);
+		Persona persona1 = getPersonaByName(p1);
+		Persona persona2 = getPersonaByName(p2);
 		
+		System.out.println("Test - " + (persona1.getType().equals("normal") && persona2.getType().equals("normal")));
+		
+		if (persona1.getType().equals("normal") && persona2.getType().equals("normal")) {
+			return fusionNormal(persona1, persona2);
+		}
+		
+		return fusionNormal(persona1, persona2);
+	}
+	
+	public Persona fusionNormal(Persona p1, Persona p2) {		
 		/*
 		 * Use the Arcana Tables
 		 * 
@@ -166,15 +177,14 @@ public class Main {
 		 * 	If Same Arcana, Persona with the next lowest base level
 		 */
 		
-		Persona persona1 = getPersonaByName(p1);
-		Persona persona2 = getPersonaByName(p2);
-		
-		String resArcana = fc.getFusionArcana(persona1.getArcana(), persona2.getArcana());
-		Integer resLevel = ((persona1.getLevel() + persona2.getLevel()) / 2) + 1;
+		String resArcana = fc.getFusionArcana(p1.getArcana(), p2.getArcana());
+		Integer resLevel = ((p1.getLevel() + p2.getLevel()) / 2) + 1;
 		
 		// Figure out the direction to go in the arcana list
 		// True means it goes down, False goes up
-		Boolean arcanaSame = (persona1.getArcana() == persona2.getArcana());
+		Boolean sameArcana = (p1.getArcana() == p2.getArcana());
+		
+		Persona res = getPersonaByArcanaLevel(resArcana, resLevel, sameArcana);
 		
 		return res;
 	}

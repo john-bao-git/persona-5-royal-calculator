@@ -23,6 +23,10 @@ public class Persona {
 		return this.arcana;
 	}
 	
+	public String getType() {
+		return this.type;
+	}
+	
 	public Integer getLevel() {
 		return this.level;
 	}
