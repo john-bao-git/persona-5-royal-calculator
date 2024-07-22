@@ -156,9 +156,7 @@ public class Main {
 	public Persona fusion(String p1, String p2) {
 		Persona persona1 = getPersonaByName(p1);
 		Persona persona2 = getPersonaByName(p2);
-		
-		System.out.println("Test - " + (persona1.getType().equals("normal") && persona2.getType().equals("normal")));
-		
+				
 		if (persona1.getType().equals("normal") && persona2.getType().equals("normal")) {
 			return fusionNormal(persona1, persona2);
 		}
