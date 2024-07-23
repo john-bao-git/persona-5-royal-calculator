@@ -36,7 +36,7 @@ public class Main {
 		fc = new FusionChart();
 	}
 	
-	public Persona getPersonaByArcanaRank(String arcana, Integer i) {	
+	private Persona getPersonaByArcanaRank(String arcana, Integer i) {	
 		String name = "", type = "";
 		Integer level = 1, rank = 1;
 		
@@ -62,7 +62,7 @@ public class Main {
 		return new Persona(name, arcana, type, level, rank);
 	}
 	
-	public Persona getPersonaByArcanaLevel(String arcana, Integer level, Boolean sameArcana) {	
+	private Persona getPersonaByArcanaLevel(String arcana, Integer level, Boolean sameArcana) {	
 		String name = "", type = "";
 		Integer rank = 1;
 		
@@ -156,7 +156,11 @@ public class Main {
 	public Persona fusion(String p1, String p2) {
 		Persona persona1 = getPersonaByName(p1);
 		Persona persona2 = getPersonaByName(p2);
-				
+		
+		if (p1.equals(p2)) {
+			return persona1;
+		}
+						
 		if (!persona1.getType().equals("treasure") && persona2.getType().equals("treasure")) {
 			return fusionNonTreasure(persona1, persona2);
 		}
@@ -175,7 +179,7 @@ public class Main {
 		 * 	If Same Arcana, Persona with the next lowest base level
 		 */
 		
-		String resArcana = fc.getFusionArcana(p1.getArcana(), p2.getArcana());
+		String resArcana = fc.getFusionArcanaNonTreasure(p1.getArcana(), p2.getArcana());
 		Integer resLevel = ((p1.getLevel() + p2.getLevel()) / 2) + 1;
 		
 		// Figure out the direction to go in the arcana list

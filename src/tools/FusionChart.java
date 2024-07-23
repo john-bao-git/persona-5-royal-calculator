@@ -59,7 +59,7 @@ public class FusionChart {
 	 * Fait - 22
 	 * Coun - 23
 	 */
-	private Integer[][] fusionChart = {
+	private Integer[][] fusionChartNonTreasure = {
 			// If 0, switch the x and y
 			{1,	14,	19,	13,	15,	10,	8,	19,	18,	3,	22,	14,	17,	12,	6,	15,	4,	2,	9,	9,	20,	23,	6},
 			{0,	2,	15,	9,	22,	14,	16,	3,	5,	7,	9,	1,	4,	10,	8,	6,	15,	3,	7,	6,	12,	12,	19},
@@ -93,16 +93,16 @@ public class FusionChart {
 	}
 	
 	public String getFusionArcana(Integer i, Integer j) {
-		int res = fusionChart[i][j];
+		int res = fusionChartNonTreasure[i][j];
 		
 		if (res == 0) {
-			res = fusionChart[j][i];
+			res = fusionChartNonTreasure[j][i];
 		}
 		
 		return getArcana(res);
 	}
 	
-	public String getFusionArcana(String a1, String a2) {
+	public String getFusionArcanaNonTreasure(String a1, String a2) {
 		int i1 = arcanaArray.indexOf(a1);
 		int i2 = arcanaArray.indexOf(a2);
 		
